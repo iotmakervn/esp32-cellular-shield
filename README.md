@@ -5,6 +5,7 @@ dev: sangseu
 # Compatible with esp-iot-uno
 
 | cellular-shield | esp-uno |
+| --- | --- |
 | VDD | 5V |
 | GND | GND |
 | TX> | 1 |
