@@ -1,4 +1,4 @@
-update=Wed Feb 15 23:41:36 2017
+update=Wed Feb 15 23:59:46 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -34,6 +34,8 @@ SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../Public/library-git/TO_SOT_Packages_SMD.pretty
@@ -81,5 +83,4 @@ LibName40=lib/w_rtx
 LibName41=lib/armory
 LibName42=/media/mig-0/01CF7A638FC447B0/kicad/libs/Acronet-KiCAD-Libraries-master/ACRONET
 LibName43=lib/arduino_shieldsNCL
-[general]
-version=1
+LibName44=lib/sim800h
