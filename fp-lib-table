@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name lib)(type KiCad)(uri "$(KIPRJMOD)/lib")(options "")(descr ""))
   (lib (name acronet)(type KiCad)(uri /media/mig-0/01CF7A638FC447B0/kicad/libs/Acronet-KiCAD-Libraries-master/acronet.pretty)(options "")(descr ""))
   (lib (name Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev16b)(type Eagle)(uri /home/mig-0/Downloads/Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev16b.lbr)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri "$(KIPRJMOD)/lib")(options "")(descr ""))
 )
