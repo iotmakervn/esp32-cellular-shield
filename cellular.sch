@@ -26,10 +26,8 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ACRONET
 LIBS:LP2985-50DBVR
 LIBS:microsd_socket
 LIBS:mma7660
@@ -424,7 +422,7 @@ U 1 1 57DA6BAF
 P 8600 5150
 F 0 "U6" V 8235 5375 50  0000 C CNN
 F 1 "SIM HOLD - PPSS-6P" V 8326 5375 50  0000 C CNN
-F 2 "Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev16b:693023010811" H 8600 5150 60  0001 C CNN
+F 2 "lib:Micro_SIM_6P_PUSH_SKM01" H 8600 5150 60  0001 C CNN
 F 3 "" H 8600 5150 60  0000 C CNN
 	1    8600 5150
 	0    1    1    0   

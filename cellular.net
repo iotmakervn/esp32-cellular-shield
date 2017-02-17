@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/mig-0/01CF7A638FC447B0/kicad/project/iotmaker/cellular_shield/shield/esp32-cellular-shield/cellular.sch)
-    (date "Thu Feb 16 00:16:08 2017")
+    (date "Fri Feb 17 23:17:54 2017")
     (tool "Eeschema no-vcs-found-7657~57~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -161,7 +161,7 @@
       (tstamp 57DA6BAD))
     (comp (ref U6)
       (value "SIM HOLD - PPSS-6P")
-      (footprint Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev16b:693023010811)
+      (footprint lib:Micro_SIM_6P_PUSH_SKM01)
       (libsource (lib cellular-rescue) (part C707_10M006_049_2))
       (sheetpath (names /) (tstamps /))
       (tstamp 57DA6BAF))
@@ -645,12 +645,12 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical cellular-rescue)
-      (uri /media/mig-0/01CF7A638FC447B0/kicad/project/iotmaker/cellular_shield/shield/esp32-cellular-shield/cellular-rescue.lib))
     (library (logical arduino_shieldsNCL)
       (uri /media/mig-0/01CF7A638FC447B0/kicad/project/iotmaker/cellular_shield/shield/esp32-cellular-shield/lib/arduino_shieldsNCL.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical cellular-rescue)
+      (uri /media/mig-0/01CF7A638FC447B0/kicad/project/iotmaker/cellular_shield/shield/esp32-cellular-shield/cellular-rescue.lib)))
   (nets
     (net (code 1) (name SIM800L_RXD)
       (node (ref R1) (pin 1))
