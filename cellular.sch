@@ -859,11 +859,11 @@ F 3 "" H 2150 6350 50  0000 C CNN
 	1    2150 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 10350 2    60   Input ~ 0
+Text GLabel 4250 10450 2    60   Input ~ 0
 SIM800L_RI
 Text GLabel 4250 10250 2    60   Input ~ 0
 SIM800L_DCD
-Text GLabel 4250 10450 2    60   Input ~ 0
+Text GLabel 4250 10350 2    60   Input ~ 0
 SIM800L_DTR
 $Comp
 L VDD #PWR020
