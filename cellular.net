@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/mig-0/01CF7A638FC447B0/kicad/project/iotmaker/cellular_shield/shield/esp32-cellular-shield/cellular.sch)
-    (date "Sat Feb 18 23:32:32 2017")
+    (date "Sun Feb 19 22:53:41 2017")
     (tool "Eeschema no-vcs-found-7657~57~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -221,7 +221,7 @@
       (tstamp 57DA6B71))
     (comp (ref D1)
       (value 5.1V/500mA)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint Diodes_SMD:D_MiniMELF_Standard)
       (libsource (lib cellular-rescue) (part D_Zener_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 58A32CC4))
