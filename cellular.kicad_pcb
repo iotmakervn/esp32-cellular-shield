@@ -2041,7 +2041,7 @@
     (model ${KIPRJMOD}/lib/MiniMELF_Standard.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
