@@ -1,4 +1,4 @@
-update=Sun Feb 19 23:50:25 2017
+update=Fri Feb 24 20:04:13 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,13 +71,13 @@ LibName30=lib/LP2985-50DBVR
 LibName31=lib/microsd_socket
 LibName32=lib/mma7660
 LibName33=lib/mp2365dn
-LibName34=lib/SIM800C
-LibName35=lib/sim_holder
-LibName36=lib/smf05c
-LibName37=lib/stm32
-LibName38=lib/w_rtx
-LibName39=lib/armory
-LibName40=lib/arduino_shieldsNCL
-LibName41=lib/sim800h
+LibName34=lib/sim_holder
+LibName35=lib/smf05c
+LibName36=lib/stm32
+LibName37=lib/w_rtx
+LibName38=lib/armory
+LibName39=lib/arduino_shieldsNCL
+LibName40=lib/sim800
+LibName41=lib/SIM800
 [general]
 version=1
