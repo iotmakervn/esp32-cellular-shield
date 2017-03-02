@@ -40,10 +40,6 @@ LIBS:armory
 LIBS:arduino_shieldsNCL
 LIBS:sim800
 LIBS:SIM800
-<<<<<<< HEAD
-=======
-LIBS:cellular-cache
->>>>>>> upstream/develop
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
