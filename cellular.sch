@@ -891,10 +891,6 @@ NoConn ~ 6400 2675
 NoConn ~ 6400 2775
 NoConn ~ 6400 2875
 NoConn ~ 8300 1275
-NoConn ~ 8300 1475
-NoConn ~ 8300 1575
-NoConn ~ 8300 1675
-NoConn ~ 8300 1775
 NoConn ~ 8300 1875
 NoConn ~ 8300 1975
 NoConn ~ 8300 2175
