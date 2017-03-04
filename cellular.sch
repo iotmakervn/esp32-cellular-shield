@@ -1456,4 +1456,10 @@ F 3 "" H -10475 4225 50  0001 C CNN
 	1    2500 8550
 	1    0    0    -1  
 $EndComp
+Text GLabel 2900 8400 2    60   Input ~ 0
+RA_MOSI
+Text GLabel 2900 8500 2    60   Input ~ 0
+RA_MISO
+Text GLabel 2900 8600 2    60   Input ~ 0
+RA_SCK
 $EndSCHEMATC
