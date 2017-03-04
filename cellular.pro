@@ -1,4 +1,4 @@
-update=Sun Feb 26 22:36:23 2017
+update=Sat Mar  4 16:08:23 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -34,6 +34,8 @@ SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../Public/library-git/TO_SOT_Packages_SMD.pretty
@@ -79,5 +81,4 @@ LibName38=lib/armory
 LibName39=lib/arduino_shieldsNCL
 LibName40=lib/sim800
 LibName41=lib/SIM800
-[general]
-version=1
+LibName42=lib/ra-02

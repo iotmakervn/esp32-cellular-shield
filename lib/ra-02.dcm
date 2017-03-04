@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Ra-02
+D LoRaTM - 433MHz, 1.8V - 3.7V, 20dBm - 10mW, CRC 256 bytes, -40- 85 *C
+K Module Lora Ra-02 SX1278
+F https://iotmaker.vn/module-lora-ra02-sx1278-10km.html
+$ENDCMP
+#
+#End Doc Library

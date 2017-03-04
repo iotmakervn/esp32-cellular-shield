@@ -40,14 +40,16 @@ LIBS:armory
 LIBS:arduino_shieldsNCL
 LIBS:sim800
 LIBS:SIM800
+LIBS:ra-02
+LIBS:cellular-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "CELLULAR SHIELD"
 Date "2016-07-14"
-Rev ""
+Rev "0.2"
 Comp "NANOCHIP"
 Comment1 ""
 Comment2 ""
@@ -1439,4 +1441,19 @@ Wire Notes Line
 	6000 3200 9175 3200
 Wire Notes Line
 	4225 7775 4225 5025
+Wire Notes Line
+	11200 500  11200 7775
+Wire Notes Line
+	11200 7775 500  7775
+$Comp
+L Ra-02 U?
+U 1 1 58BA95A8
+P 2500 8550
+F 0 "U?" H 2500 9125 50  0000 C CNN
+F 1 "Ra-02" H 2500 9034 50  0000 C CNN
+F 2 "SO-16-W" H -11300 3225 50  0001 C CIN
+F 3 "" H -10475 4225 50  0001 C CNN
+	1    2500 8550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
