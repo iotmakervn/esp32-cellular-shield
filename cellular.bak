@@ -1589,4 +1589,20 @@ F 3 "" H 4275 8500 50  0000 C CNN
 	1    4275 8500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4275 8250 4275 8400
+Wire Wire Line
+	4275 8350 4350 8350
+Connection ~ 4275 8350
+Wire Wire Line
+	4650 8650 4650 8700
+Wire Wire Line
+	4275 8600 4275 8675
+Wire Wire Line
+	4275 8675 4650 8675
+Connection ~ 4650 8675
+Wire Wire Line
+	4950 8350 5025 8350
+Wire Wire Line
+	5025 8350 5025 8250
 $EndSCHEMATC
