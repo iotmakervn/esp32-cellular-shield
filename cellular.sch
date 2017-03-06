@@ -40,6 +40,7 @@ LIBS:armory
 LIBS:arduino_shieldsNCL
 LIBS:sim800
 LIBS:SIM800
+LIBS:cellular-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -907,7 +908,6 @@ F 3 "" H 8400 1425 50  0000 C CNN
 	1    8400 1425
 	1    0    0    -1  
 $EndComp
-Connection ~ 3750 6300
 Connection ~ 3250 7400
 Wire Wire Line
 	3750 7100 3750 7425

@@ -40,7 +40,6 @@ LIBS:armory
 LIBS:arduino_shieldsNCL
 LIBS:sim800
 LIBS:SIM800
-LIBS:cellular-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
