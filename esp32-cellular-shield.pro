@@ -1,4 +1,4 @@
-update=Thứ năm, 09 Tháng ba Năm 2017 13:36:09 ICT
+update=Thứ năm, 09 Tháng ba Năm 2017 21:38:42 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -40,7 +40,7 @@ version=1
 version=1
 LibDir=../../../Public/library-git/TO_SOT_Packages_SMD.pretty
 [eeschema/libraries]
-LibName1=cellular-rescue
+LibName1=esp32-cellular-shield-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -78,8 +78,8 @@ LibName35=lib/smf05c
 LibName36=lib/stm32
 LibName37=lib/w_rtx
 LibName38=lib/armory
-LibName39=lib/arduino_shieldsNCL
-LibName40=lib/sim800
-LibName41=lib/SIM800
-LibName42=lib/ra-02
-LibName43=lib/esp-uno
+LibName39=lib/sim800
+LibName40=lib/SIM800
+LibName41=lib/ra-02
+LibName42=lib/esp-uno
+LibName43=lib/SIM800C
