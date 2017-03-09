@@ -40,6 +40,7 @@ LIBS:arduino_shieldsNCL
 LIBS:sim800
 LIBS:SIM800
 LIBS:ra-02
+LIBS:esp-uno
 LIBS:esp32-cellular-shield-cache
 EELAYER 26 0
 EELAYER END
@@ -260,15 +261,15 @@ PWRKEY
 $Comp
 L ANTENNA ANT1
 U 1 1 57DA6B70
-P 7200 3725
-F 0 "ANT1" H 7328 3872 60  0000 L CNN
-F 1 "ANTENNA" H 7328 3766 60  0000 L CNN
-F 2 "lib:coaxial_u.fl-r-smt-1" H 7200 3725 60  0001 C CNN
-F 3 "" H 7200 3725 60  0000 C CNN
-	1    7200 3725
+P 7300 3600
+F 0 "ANT1" H 7428 3747 60  0000 L CNN
+F 1 "ANTENNA" H 7428 3641 60  0000 L CNN
+F 2 "lib:coaxial_u.fl-r-smt-1" H 7300 3600 60  0001 C CNN
+F 3 "" H 7300 3600 60  0000 C CNN
+	1    7300 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 3725 0    60   Input ~ 0
+Text GLabel 6750 3600 0    60   Input ~ 0
 GSM_ANT
 $Comp
 L LED_Small D3
@@ -303,7 +304,7 @@ F 3 "" V 10450 3850 50  0000 C CNN
 	1    10450 3850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9450 4250 2    60   Input ~ 0
+Text GLabel 9450 4200 1    60   Input ~ 0
 SIM800L_NETLIGHT
 $Comp
 L +5V #PWR1
@@ -517,12 +518,12 @@ $EndComp
 $Comp
 L R_Small R26
 U 1 1 57DA6B6F
-P 7000 3725
-F 0 "R26" V 7196 3725 50  0000 C CNN
-F 1 "0R" V 7105 3725 50  0000 C CNN
-F 2 "lib:R_0603" H 7000 3725 50  0001 C CNN
-F 3 "" H 7000 3725 50  0000 C CNN
-	1    7000 3725
+P 7000 3600
+F 0 "R26" V 7196 3600 50  0000 C CNN
+F 1 "0R" V 7105 3600 50  0000 C CNN
+F 2 "lib:R_0603" H 7000 3600 50  0001 C CNN
+F 3 "" H 7000 3600 50  0000 C CNN
+	1    7000 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -723,7 +724,7 @@ F 3 "" H 2100 2300 50  0000 C CNN
 $EndComp
 Text GLabel 3300 1500 1    60   Input ~ 0
 SIM800L_STATUS
-Text GLabel 9450 5650 2    60   Input ~ 0
+Text GLabel 9450 5550 1    60   Input ~ 0
 SIM800L_STATUS
 $Comp
 L LED_Small D6
@@ -832,7 +833,7 @@ F 3 "" H 10450 3250 50  0000 C CNN
 $EndComp
 Text GLabel 10450 2300 0    60   Input ~ 0
 SIM800L_RESET
-Text GLabel 9750 2700 3    60   Input ~ 12
+Text GLabel 9450 2550 1    60   Input ~ 12
 RESET
 Text GLabel 8300 2275 2    60   Input ~ 12
 RESET
@@ -1235,11 +1236,6 @@ Wire Wire Line
 	1100 7250 1100 7450
 Wire Wire Line
 	800  5900 1200 5900
-Connection ~ 6800 3725
-Wire Wire Line
-	6750 3725 6900 3725
-Wire Wire Line
-	7100 3725 7150 3725
 Connection ~ 10450 1750
 Wire Wire Line
 	10250 1750 10450 1750
@@ -1395,7 +1391,7 @@ Connection ~ 10100 4450
 Wire Wire Line
 	9450 4450 9850 4450
 Wire Wire Line
-	9450 4450 9450 4250
+	9450 4200 9450 4450
 Wire Wire Line
 	10100 6100 10450 6100
 Wire Wire Line
@@ -1409,7 +1405,7 @@ Connection ~ 10100 5850
 Wire Wire Line
 	9450 5850 9850 5850
 Wire Wire Line
-	9450 5850 9450 5650
+	9450 5550 9450 5850
 Wire Wire Line
 	10050 3100 10050 2700
 Connection ~ 10450 3100
@@ -1422,7 +1418,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 2700 10150 2700
 Wire Wire Line
-	9750 2700 9850 2700
+	9450 2700 9850 2700
 Wire Wire Line
 	8300 1375 8400 1375
 Wire Wire Line
@@ -1641,5 +1637,22 @@ F 2 "" H -250 4250 50  0001 C CNN
 F 3 "" H -450 4150 50  0001 C CNN
 	1    10350 5850
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3600 7250 3600
+Wire Wire Line
+	6750 3600 6900 3600
+Wire Wire Line
+	9450 2550 9450 2700
+$Comp
+L ESP-UNO S?
+U 1 1 58C17174
+P 13300 2900
+F 0 "S?" V 13222 1772 60  0000 R CNN
+F 1 "ESP-UNO" H 13500 2900 60  0000 R CNN
+F 2 "" H -1150 -1100 60  0001 C CNN
+F 3 "" H -1150 -1100 60  0001 C CNN
+	1    13300 2900
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
