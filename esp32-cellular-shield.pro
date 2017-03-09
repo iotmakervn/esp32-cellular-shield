@@ -1,4 +1,4 @@
-update=Thứ năm, 09 Tháng ba Năm 2017 21:38:42 ICT
+update=Thứ năm, 09 Tháng ba Năm 2017 22:32:10 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,7 +38,7 @@ ERC_TestSimilarLabels=1
 version=1
 [eeschema]
 version=1
-LibDir=../../../Public/library-git/TO_SOT_Packages_SMD.pretty
+LibDir=lib
 [eeschema/libraries]
 LibName1=esp32-cellular-shield-rescue
 LibName2=power
@@ -78,8 +78,6 @@ LibName35=lib/smf05c
 LibName36=lib/stm32
 LibName37=lib/w_rtx
 LibName38=lib/armory
-LibName39=lib/sim800
-LibName40=lib/SIM800
-LibName41=lib/ra-02
-LibName42=lib/esp-uno
-LibName43=lib/SIM800C
+LibName39=lib/ra-02
+LibName40=lib/esp-uno
+LibName41=lib/sim800c
