@@ -2,8 +2,11 @@
 
 dev: sangseu
 GSM/GPRS : SIM800
+
 LORA	 : lora-Ra02
+
 Zigbee 	 : CC2530 + PA zigbee
+
 OLED	 : giống với esp32-wifi-uno
 
 
