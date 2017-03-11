@@ -1,4 +1,4 @@
-update=Thứ bảy, 11 Tháng ba Năm 2017 16:08:57 ICT
+update=Thứ bảy, 11 Tháng ba Năm 2017 18:51:58 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -30,12 +32,9 @@ PlotDirectoryName=assets/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib
@@ -77,3 +76,4 @@ LibName34=lib/w_rtx
 LibName35=lib/ra-02
 LibName36=lib/esp-uno
 LibName37=lib/sim800c
+LibName38=lib/tc1264-33VAB

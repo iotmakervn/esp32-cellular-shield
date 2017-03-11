@@ -1,13 +1,16 @@
 # esp32-cellular-shield
 
 dev: sangseu
-GSM/GPRS : SIM800
+- GSM/GPRS : SIM800C
 
-LORA	 : lora-Ra02
+- LORA	 : lora-Ra02
 
-Zigbee 	 : CC2530 + PA zigbee
+- Zigbee 	 : TI CC2538
 
-OLED	 : giống với esp32-wifi-uno
+- OLED	 : giống với esp32-wifi-uno
+
+- Nguồn 4.1v : MCP16311
+- Nguồn 3.3v : TC1264
 
 
 # Compatible with esp-iot-uno
