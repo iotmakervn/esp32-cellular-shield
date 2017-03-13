@@ -9,8 +9,8 @@ dev: sangseu
 
 - OLED	 : giống với esp32-wifi-uno
 
-- Nguồn 4.1v : MCP16311
-- Nguồn 3.3v : TC1264
+- Nguồn 4.1v : MCP16311, L =Vout/K (K=0.22 V/uH) 
+- Nguồn 3.3v : TC1264 (TO-220)
 
 
 # Compatible with esp-iot-uno
