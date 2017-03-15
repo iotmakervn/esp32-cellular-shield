@@ -12,6 +12,7 @@ fp-lib-table
 *rescue.lib
 _autosave-*
 *.tmp
+*.dcm
 
 # Netlist files (exported from Eeschema)
 *.net
