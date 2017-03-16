@@ -15,7 +15,7 @@ dev: sangseu
 
 ### PCB
 
-[![ESP32 Cellular Shield PCB](assets/esp32-cellular-shieldesp32-cellular-shield-pcb.png)](assets/esp32-cellular-shield-pcb.svg)
+[![ESP32 Cellular Shield PCB](assets/esp32-cellular-shield-pcb.png)](assets/esp32-cellular-shield-pcb.svg)
 
 ### 3D
 
