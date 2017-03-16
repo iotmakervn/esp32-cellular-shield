@@ -1,4 +1,4 @@
-update=Thứ bảy, 11 Tháng ba Năm 2017 18:51:58 ICT
+update=Thứ năm, 16 Tháng ba Năm 2017 09:31:48 ICT
 version=1
 last_client=kicad
 [pcbnew]
