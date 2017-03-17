@@ -8,7 +8,6 @@ fp-lib-table
 *.kicad_pcb-bak
 *~
 *.cad 
-*rescue.lib
 _autosave-*
 *.tmp
 *.dcm
