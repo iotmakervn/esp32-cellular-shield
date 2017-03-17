@@ -7,7 +7,6 @@ fp-lib-table
 *.bck
 *.kicad_pcb-bak
 *~
-*cache.lib
 *.cad 
 *rescue.lib
 _autosave-*

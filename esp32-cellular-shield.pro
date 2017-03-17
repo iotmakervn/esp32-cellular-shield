@@ -1,4 +1,4 @@
-update=Thứ năm, 16 Tháng ba Năm 2017 09:31:48 ICT
+update=Thứ sáu, 17 Tháng ba Năm 2017 11:20:51 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -77,3 +77,6 @@ LibName35=lib/ra-02
 LibName36=lib/esp-uno
 LibName37=lib/sim800c
 LibName38=lib/tc1264-33VAB
+LibName39=lib/dc-dc
+LibName40=lib/microsd_spi_cd
+LibName41=lib/switches
