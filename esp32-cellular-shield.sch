@@ -745,28 +745,22 @@ NoConn ~ 2975 6300
 NoConn ~ 3775 6200
 NoConn ~ 3775 6100
 NoConn ~ 4150 5700
-Text GLabel 12725 2800 0    60   Input ~ 0
+Text GLabel 12750 2500 0    60   Input ~ 0
 RA_MOSI/SPID
-Text GLabel 12725 2900 0    60   Input ~ 0
+Text GLabel 12750 2600 0    60   Input ~ 0
 RA_MISO/SPIQ
-Text GLabel 14800 2800 2    60   Input ~ 0
+Text GLabel 12750 2700 0    60   Input ~ 0
 RA_SCK
-Text GLabel 14800 2900 2    60   Input ~ 0
+Text GLabel 12750 2400 0    60   Input ~ 0
 RA_RESET
 Text GLabel 3775 5900 2    60   Input ~ 0
 RA_MISO/SPIQ
 Text GLabel 3775 5800 2    60   Input ~ 0
 RA_MOSI/SPID
-Text Notes 13100 2925 0    39   ~ 0
-GPIO07\n
-Text Notes 13100 2825 0    39   ~ 0
-GPIO08\n
-Text Notes 14250 2825 0    39   ~ 0
-GPIO06\n
 Text Notes 13250 1325 0    39   ~ 0
-GPIO09\n
+GPIO16\n
 Text Notes 13250 1425 0    39   ~ 0
-GPIO10\n
+GPIO17
 Text Notes 13075 1525 0    39   ~ 0
 GPIO02\n
 Text Notes 13075 1625 0    39   ~ 0
@@ -777,10 +771,6 @@ Text Notes 13075 1825 0    39   ~ 0
 GPIO25\n
 NoConn ~ 14700 2600
 NoConn ~ 14700 2700
-NoConn ~ 12850 2700
-NoConn ~ 12850 2600
-NoConn ~ 12850 2500
-NoConn ~ 12850 2400
 NoConn ~ 12850 3000
 NoConn ~ 12850 3100
 NoConn ~ 14700 1800
@@ -791,8 +781,6 @@ NoConn ~ 14700 1400
 NoConn ~ 14700 1300
 NoConn ~ 12850 1900
 NoConn ~ 12850 2000
-Text Notes 14250 2925 0    39   ~ 0
-GPIO11\n
 $Comp
 L C_Small C13
 U 1 1 58C3E069
@@ -1432,14 +1420,6 @@ Wire Notes Line
 	6000 5000 6000 400 
 Wire Wire Line
 	2725 5900 2975 5900
-Wire Wire Line
-	12725 2800 12850 2800
-Wire Wire Line
-	12725 2900 12850 2900
-Wire Wire Line
-	14800 2800 14700 2800
-Wire Wire Line
-	14700 2900 14800 2900
 Wire Notes Line
 	6000 5025 6000 6800
 Wire Notes Line
@@ -1703,17 +1683,6 @@ Wire Wire Line
 	13700 3700 13700 3600
 Wire Wire Line
 	13600 3700 13600 3600
-$Comp
-L ESP-UNO S1
-U 1 1 58C9FD5D
-P 13750 2200
-F 0 "S1" H 13725 913 60  0000 C CNN
-F 1 "ESP-UNO" H 13725 1019 60  0000 C CNN
-F 2 "lib:ESP-UNO-SH" H 800 -1200 60  0001 C CNN
-F 3 "" H 800 -1200 60  0001 C CNN
-	1    13750 2200
-	-1   0    0    1   
-$EndComp
 Text GLabel 12550 1200 1    60   Input ~ 0
 GPS_TX
 Text GLabel 12400 1200 1    60   Input ~ 0
@@ -1813,4 +1782,35 @@ F 3 "" H -1000 400 50  0001 C CNN
 $EndComp
 Text Notes 13200 5200 0    118  ~ 24
 Header GPS NEO
+$Comp
+L ESP-UNO S1
+U 1 1 58C9FD5D
+P 13750 2200
+F 0 "S1" H 13725 913 60  0000 C CNN
+F 1 "ESP-UNO" H 13725 1019 60  0000 C CNN
+F 2 "lib:ESP-UNO-SH" H 800 -1200 60  0001 C CNN
+F 3 "" H 800 -1200 60  0001 C CNN
+	1    13750 2200
+	-1   0    0    1   
+$EndComp
+NoConn ~ 14700 2800
+NoConn ~ 14700 2900
+Text Notes 13075 2425 0    39   ~ 0
+GPIO05
+Text Notes 13075 2525 0    39   ~ 0
+GPIO23
+Text Notes 13075 2625 0    39   ~ 0
+GPIO19
+Text Notes 13075 2725 0    39   ~ 0
+GPIO18
+NoConn ~ 12850 2900
+NoConn ~ 12850 2800
+Wire Wire Line
+	12750 2600 12850 2600
+Wire Wire Line
+	12750 2500 12850 2500
+Wire Wire Line
+	12750 2400 12850 2400
+Wire Wire Line
+	12750 2700 12850 2700
 $EndSCHEMATC
