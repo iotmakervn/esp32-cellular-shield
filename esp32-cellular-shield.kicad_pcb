@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-4011ed4~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-bf21640~58~ubuntu16.10.1)
 
   (general
     (links 141)
@@ -2645,10 +2645,10 @@
   (gr_text GPIO0 (at 155.194 83.058) (layer F.SilkS) (tstamp 58CA76F5)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text GPIO16 (at 155.194 81.534) (layer F.SilkS) (tstamp 58CA76F4)
+  (gr_text GPIO16 (at 155.2575 80.01) (layer F.SilkS) (tstamp 58CA76F4)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text GPIO17 (at 155.194 80.01) (layer F.SilkS) (tstamp 58CA76F0)
+  (gr_text GPIO17 (at 155.194 81.534) (layer F.SilkS) (tstamp 58CA76F0)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
   (gr_line (start 163.322 83.82) (end 163.322 83.82) (layer F.SilkS) (width 0.2) (tstamp 58CA76EA))
