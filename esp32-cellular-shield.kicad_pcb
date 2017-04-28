@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory assets/gerber/))
+      (outputdirectory "assets/esp32-cellular-shield-68,58x53.34(mm)/"))
   )
 
   (net 0 "")
